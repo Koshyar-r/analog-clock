@@ -2,7 +2,7 @@
 :root {
     --hue-color: 240;
 
-    --first-color: #00D1FF;
+    --first-color: #06b6dd;
     --title-color: #18184e;
     --text-color: #4f4f64;
     --text-color-light: #7777d4;
@@ -56,10 +56,7 @@ body.dark-theme {
     transition: .7s;
 }
 .dark-theme .clock__circle {
-    box-shadow: 6px 6px 16px #1c1c21, 
-                -6px -6px 16px #2f2f37, 
-                inset -6px -6px 16px #2f2f37, 
-                inset 6px 6px 12px #1c1c21;
+    box-shadow:  13px 13px 26px #11171f, -13px -13px 26px #11171f;
 }
 .dark-theme .clock__theme {
     box-shadow: inset -1px -1px 1px #2f2f37, inset 1px 1px 1px #1c1c21;
